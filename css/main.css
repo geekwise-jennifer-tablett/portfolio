@@ -10,7 +10,7 @@
 }
 header{
     margin-top:3px;
-    height:5rem;
+    height:10rem;
     width:95%;
     display:inline-block; 
     background-color:yellow;
@@ -25,15 +25,15 @@ header{
 }
 #title_box{
     margin:0 auto;
-    height:4rem;
-    width:10rem;
+    height:8rem;
+    width:15rem;
     position: relative;
     top: -30px;
     border:solid 2px black;
 }
 #main{
     margin-top:3px;
-    height:50rem;
+    height:42rem;
     width:95%;
     display:inline-block;
     border:solid 2px red;
@@ -75,7 +75,7 @@ header{
   cover letter and skills
    ==================== */
 #personal_info{
-    height: 30rem;
+    height: 35rem;
     width: 40%;
     display:inline-block;
     float:left;
@@ -99,19 +99,56 @@ header{
        projects
    ==================== */
 #project_div{
-    height: 30rem;
+    padding:10px;
+    height: 35rem;
     width: 58%;
     display:inline-block;
     position: relative;
     float:right;
     background-color: blue;
 }
-#app_one{}
-#app_two{}
-#game_one{}
-#game_two{}
-#site_one{}
-#site_two{}
+#app_one{
+    margin:2px;
+    height:10rem;
+    width:48%;
+    float:left;
+    border:solid 2px purple;
+}
+#app_two{
+    margin:2px;
+    height:10rem;
+    width:48%;
+    float:right;
+    border:solid 2px purple;
+}
+#game_one{
+    margin:2px;
+    height:10rem;
+    width:48%;
+    float:left;
+    border:solid 2px purple;
+}
+#game_two{
+    margin:2px;
+    height:10rem;
+    width:48%;
+    float:right;
+    border:solid 2px purple;
+}
+#site_one{
+    margin:2px;
+    height:10rem;
+    width:48%;
+    float:left;
+    border:solid 2px purple;
+}
+#site_two{
+    margin:2px;
+    height:10rem;
+    width:48%;
+    float:right;
+    border:solid 2px purple;
+}
 /* ====================
   special to go back to 
   top of page
@@ -122,10 +159,66 @@ header{
     display:inline-block;
     background-color:green;
 }
+#left_up_deco{
+    margin-top:33px;
+    height:2px;
+    width:35%;
+    float:left;
+    border:solid 1px black;
+}
+#up{
+    margin:0 auto;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100%;
+    top: 8px;
+    position: relative;
+    border:solid 2px black;
+}
+#right_up_deco{
+    margin-top:-23px;
+    height:2px;
+    width:35%;
+    float:right;
+    border:solid 1px black;
+}    
 footer{
    margin-top:3px;
-    height:5rem;
+    height:8rem;
     width:95%;
     display:inline-block; 
     background-color:brown;
+}
+#contact_info{
+    height:100%;
+    width:30%;
+    float:left;
+    background-color:red;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color:pink;
+}
+#link_div{
+    height:100%;
+    width:70%;
+    float:right;
+    background-color:darkseagreen;
+}
+.info_links{
+    margin:20px;
+    height: 3.5rem;
+    width: 3.5rem;
+    display:inline-block;
+    border-radius: 100%;
+    top: 15px;
+    position: relative;
+    border:solid 2px black; 
 }
