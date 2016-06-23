@@ -1,0 +1,131 @@
+/* ====================
+   color schemes
+   
+   ==================== */
+ body{
+    background-color:#E8E4E4;
+    margin:0 auto;
+    text-align:center;
+    font-size:65.2%;
+}
+header{
+    margin-top:3px;
+    height:5rem;
+    width:95%;
+    display:inline-block; 
+    background-color:yellow;
+}
+#dropdown_div{
+    height:2rem;
+    width:2rem;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    background-color:grey;
+}
+#title_box{
+    margin:0 auto;
+    height:4rem;
+    width:10rem;
+    position: relative;
+    top: -30px;
+    border:solid 2px black;
+}
+#main{
+    margin-top:3px;
+    height:50rem;
+    width:95%;
+    display:inline-block;
+    border:solid 2px red;
+}
+/* ====================
+   for decoration and 
+   portrait
+   ==================== */
+#my_img_div{
+    height:5rem;
+    width:100%;
+    display:inline-block; 
+    background-color:orange;
+}
+#left_deco{
+    margin-top:33px;
+    height:2px;
+    width:35%;
+    float:left;
+    border:solid 1px black;
+}
+#portrait_div{
+    margin:0 auto;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100%;
+    top: 8px;
+    position: relative;
+    border:solid 2px black;
+}
+#right_deco{
+    margin-top:-23px;
+    height:2px;
+    width:35%;
+    float:right;
+    border:solid 1px black;
+}
+/* ====================
+  cover letter and skills
+   ==================== */
+#personal_info{
+    height: 30rem;
+    width: 40%;
+    display:inline-block;
+    float:left;
+    position: relative;
+    background-color:lightblue;
+}
+#cover_letter{
+    margin:0 auto;
+    height:15rem;
+    width:98%;
+    border:solid 1px white;
+}
+#skills{
+    margin:0 auto;
+    margin-top:50px;
+    height:10rem;
+    width:98%;
+    border:solid 1px white;
+}
+/* ====================
+       projects
+   ==================== */
+#project_div{
+    height: 30rem;
+    width: 58%;
+    display:inline-block;
+    position: relative;
+    float:right;
+    background-color: blue;
+}
+#app_one{}
+#app_two{}
+#game_one{}
+#game_two{}
+#site_one{}
+#site_two{}
+/* ====================
+  special to go back to 
+  top of page
+   ==================== */
+#back_to_top{
+    height:5rem;
+    width:95%;
+    display:inline-block;
+    background-color:green;
+}
+footer{
+   margin-top:3px;
+    height:5rem;
+    width:95%;
+    display:inline-block; 
+    background-color:brown;
+}
