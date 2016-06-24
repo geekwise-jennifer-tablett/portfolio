@@ -17,12 +17,17 @@
     text-align:center;
     font-size:65.2%;
 }
+.shadow{
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
 header{
     margin-top:3px;
     height:10rem;
     width:95%;
     display:inline-block;
-    background-color:#040f24;
+    border:solid 2px #011437;
 }
 #dropdown_div{
     height:2rem;
@@ -38,57 +43,77 @@ header{
     width:15rem;
     position: relative;
     top: -30px;
-    border:solid 2px #011437;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+
 }
 #main{
     margin-top:3px;
     height:42rem;
     width:95%;
     display:inline-block;
-    border:solid 2px #011437;
 }
 /* ====================
    for decoration and 
    portrait
    ==================== */
 #my_img_div{
+    margin-bottom: 1rem;
     height:5rem;
     width:100%;
     display:inline-block; 
 }
+.decoration_left{
+    height:2rem;
+    width:45%;
+    background-image:url(http://i.imgur.com/jCvLBzg.png?1);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.decoration_right{
+    height:2rem;
+    width:45%;
+    background-image:url(http://i.imgur.com/cCrQ2l0.png?2);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
 #left_deco{
-    margin-top:33px;
-    height:2px;
-    width:35%;
     float:left;
-    border:solid 1px black;
+    position: relative;
+    top: 33%;
 }
 #portrait_div{
     margin:0 auto;
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 4.5rem;
+    width: 4.5rem;
     border-radius: 100%;
     top: 8px;
     position: relative;
-    border:solid 2px black;
+    border:solid 2px #757c8a;
+    background-image:url(http://i.imgur.com/dHnNVkY.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
 }
 #right_deco{
-    margin-top:-23px;
-    height:2px;
-    width:35%;
     float:right;
-    border:solid 1px black;
+    position: relative;
+    top: -60%;
 }
 /* ====================
   cover letter and skills
    ==================== */
 #personal_info{
     height: 35rem;
-    width: 40%;
+    width: 38%;
     display:inline-block;
     float:left;
     position: relative;
     background-color:#757c8a;
+   
 }
 #cover_letter{
     margin:0 auto;
@@ -162,16 +187,22 @@ header{
   top of page
    ==================== */
 #back_to_top{
+    margin-top: 1rem;
     height:5rem;
     width:95%;
     display:inline-block;
 }
+/**font awsome*/
+.fa-hand-o-up:before{
+    content: "\f0a6";
+    color: #011437;
+    font-size: 4rem;
+}
+
 #left_up_deco{
-    margin-top:33px;
-    height:2px;
-    width:35%;
     float:left;
-    border:solid 1px black;
+    position: relative;
+    top: 28%;
 }
 #up{
     margin:0 auto;
@@ -180,14 +211,11 @@ header{
     border-radius: 100%;
     top: 8px;
     position: relative;
-    border:solid 2px black;
 }
 #right_up_deco{
-    margin-top:-23px;
-    height:2px;
-    width:35%;
     float:right;
-    border:solid 1px black;
+    position: relative;
+    top: -45%;
 }    
 footer{
    margin-top:3px;
@@ -203,6 +231,8 @@ footer{
 }
 h1{
     text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000
 }
 p{
     text-align: center;
@@ -210,7 +240,8 @@ p{
 a{
     text-align: center;
     text-decoration: none;
-    color:pink;
+    color: white;
+    text-shadow: 2px 2px 4px #000000
 }
 #link_div{
     height:100%;
@@ -225,5 +256,5 @@ a{
     border-radius: 100%;
     top: 15px;
     position: relative;
-    border:solid 2px black; 
+    border:solid 2px #757c8a; 
 }
