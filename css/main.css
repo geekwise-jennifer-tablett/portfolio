@@ -138,49 +138,67 @@ header{
     display:inline-block;
     position: relative;
     float:right;
-    background-color:#757c8a;
+
 }
 #app_one{
     margin:2px;
     height:10rem;
     width:48%;
     float:left;
-    border:solid 3px white;
+    background-image:url(http://i.imgur.com/gleQX4g.png?1);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
 }
 #app_two{
     margin:2px;
     height:10rem;
     width:48%;
     float:right;
-    border:solid 3px white;
+    background-image:url(http://i.imgur.com/CUMMD3s.png?1);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
 }
 #game_one{
     margin:2px;
     height:10rem;
     width:48%;
     float:left;
-    border:solid 3px white;
+    background-image:url(http://i.imgur.com/3Bp5j7U.png?1);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
 }
 #game_two{
     margin:2px;
     height:10rem;
     width:48%;
     float:right;
-    border:solid 3px white;
+    background-image:url();
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
 }
 #site_one{
     margin:2px;
     height:10rem;
     width:48%;
     float:left;
-    border:solid 3px white;
+    background-image:url(http://i.imgur.com/zYyHuRE.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
 }
 #site_two{
     margin:2px;
     height:10rem;
     width:48%;
     float:right;
-    border:solid 3px white;
+    background-image:url(http://i.imgur.com/8gBqnnX.png?1);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
 }
 /* ====================
   special to go back to 
@@ -192,13 +210,6 @@ header{
     width:95%;
     display:inline-block;
 }
-/**font awsome*/
-.fa-hand-o-up:before{
-    content: "\f0a6";
-    color: #011437;
-    font-size: 4rem;
-}
-
 #left_up_deco{
     float:left;
     position: relative;
@@ -257,4 +268,54 @@ a{
     top: 15px;
     position: relative;
     border:solid 2px #757c8a; 
+}
+/**link images*/
+#link_two{
+    background-image:url();
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+#link_three{
+    background-image:url();
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+#link_four{
+    background-image:url();
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+#link_five{
+    background-image:url();
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+#link_six{
+    background-image:url(http://i.imgur.com/AdPIEuv.jpg?1);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+#link_seven{
+    background-image:url(http://i.imgur.com/9MnI6Hr.jpg?1);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+#link_eight{
+    background-image:url(http://i.imgur.com/SsWpuqT.jpg?1);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+/**font awsome*/
+.fa-hand-o-up:before{
+    content: "\f0a6";
+    color: #011437;
+    font-size: 4rem;
 }
