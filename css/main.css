@@ -1,9 +1,18 @@
 /* ====================
-   color schemes
+   color schemes 
+   from dark to light
+   -web designer{
+       black:#040f24
+       black:#011437
+       darkslategrey:#222426
+       bluegrey#5972a3
+       slategrey:#757c8a
+     }
+ 
    
    ==================== */
  body{
-    background-color:#E8E4E4;
+    background-color:#5972a3;
     margin:0 auto;
     text-align:center;
     font-size:65.2%;
@@ -12,8 +21,8 @@ header{
     margin-top:3px;
     height:10rem;
     width:95%;
-    display:inline-block; 
-    background-color:yellow;
+    display:inline-block;
+    background-color:#040f24;
 }
 #dropdown_div{
     height:2rem;
@@ -29,14 +38,14 @@ header{
     width:15rem;
     position: relative;
     top: -30px;
-    border:solid 2px black;
+    border:solid 2px #011437;
 }
 #main{
     margin-top:3px;
     height:42rem;
     width:95%;
     display:inline-block;
-    border:solid 2px red;
+    border:solid 2px #011437;
 }
 /* ====================
    for decoration and 
@@ -46,7 +55,6 @@ header{
     height:5rem;
     width:100%;
     display:inline-block; 
-    background-color:orange;
 }
 #left_deco{
     margin-top:33px;
@@ -80,7 +88,7 @@ header{
     display:inline-block;
     float:left;
     position: relative;
-    background-color:lightblue;
+    background-color:#757c8a;
 }
 #cover_letter{
     margin:0 auto;
@@ -105,49 +113,49 @@ header{
     display:inline-block;
     position: relative;
     float:right;
-    background-color: blue;
+    background-color:#757c8a;
 }
 #app_one{
     margin:2px;
     height:10rem;
     width:48%;
     float:left;
-    border:solid 2px purple;
+    border:solid 3px white;
 }
 #app_two{
     margin:2px;
     height:10rem;
     width:48%;
     float:right;
-    border:solid 2px purple;
+    border:solid 3px white;
 }
 #game_one{
     margin:2px;
     height:10rem;
     width:48%;
     float:left;
-    border:solid 2px purple;
+    border:solid 3px white;
 }
 #game_two{
     margin:2px;
     height:10rem;
     width:48%;
     float:right;
-    border:solid 2px purple;
+    border:solid 3px white;
 }
 #site_one{
     margin:2px;
     height:10rem;
     width:48%;
     float:left;
-    border:solid 2px purple;
+    border:solid 3px white;
 }
 #site_two{
     margin:2px;
     height:10rem;
     width:48%;
     float:right;
-    border:solid 2px purple;
+    border:solid 3px white;
 }
 /* ====================
   special to go back to 
@@ -157,7 +165,6 @@ header{
     height:5rem;
     width:95%;
     display:inline-block;
-    background-color:green;
 }
 #left_up_deco{
     margin-top:33px;
@@ -187,13 +194,12 @@ footer{
     height:8rem;
     width:95%;
     display:inline-block; 
-    background-color:brown;
+    background-color:#040f24;
 }
 #contact_info{
     height:100%;
     width:30%;
     float:left;
-    background-color:red;
 }
 h1{
     text-align: center;
@@ -210,7 +216,6 @@ a{
     height:100%;
     width:70%;
     float:right;
-    background-color:darkseagreen;
 }
 .info_links{
     margin:20px;
