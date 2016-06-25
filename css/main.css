@@ -23,11 +23,14 @@
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 header{
-    margin-top:3px;
-    height:10rem;
-    width:95%;
+    height:12rem;
+    width:100%;
     display:inline-block;
     border:solid 2px #011437;
+    background-image:url(http://i.imgur.com/nMMFy9K.jpg?1);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
 }
 #dropdown_div{
     height:2rem;
@@ -246,7 +249,7 @@ li{
 footer{
    margin-top:3px;
     height:8rem;
-    width:95%;
+    width:100%;
     display:inline-block; 
     background-color:#040f24;
 }
