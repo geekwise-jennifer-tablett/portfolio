@@ -3,14 +3,20 @@
 
 Table of Contents
 --------------------------------------
-### Last Updated @ 06-23-2016
+### Last Updated @ 06-27-2016
 
 
 1. To Do List
-2. Design Layout Technical Notes
+2. Color Schemes
+3. Design Layout Technical Notes (webdesign/landing page)
 4. Function Technical Notes
 5. Outside Frameworks
 6. General Technical Notes and New Ideas
+7. Logo Design Layout / Technical Notes
+8. Photography Design Layout / Technical Notes
+9. Art Design Layout / Technical Notes
+10. Tattoo Design Layout / Technical Notes
+11. Furniture and Crafts Design Layout / Technical Notes
 
 
 
@@ -64,6 +70,60 @@ To Do
 4. [ ]-documentation
     []-fix all documentation to standard
     []-give javascript documentation to make it readable
+
+
+Color Schemes
+----------------------------
+## Web Design
+```
+    Blues and Greys
+       black:#040f24
+       black:#011437
+       darkslategrey:#222426
+       bluegrey:#5972a3
+       dimgrey:#78524b
+       slategrey:#757c8a
+```
+## Photography
+```
+    Vintage 80's Sales
+        maroon:#5c0201
+        darkred:#a81100
+        darkslategrey:#01505d
+        peru:#b5832c
+        
+```
+## Art
+```
+    Oldfashion Loli
+        crimson:#e90041
+        darkorange:#ed8c07
+        lightseagreen:#01b5b6
+        yellowgreen:#8dc80a
+        darkkaki:#d8d248
+        lemonchiffon:#fcfcb6
+```
+## Tattoo
+```
+    Blood 
+        black:#400303
+        maroon:#560e07
+        maroon:#740707
+        red:#db0016
+        firebrick:#c01111
+        silver:#ccadad
+        lavenderblush:#ffecee
+```
+## Furniture and Crafts
+```
+    Natural earth tones 
+        black:#282e14
+        darkolivegreen:#4d5723
+        darkolivegreen:#725e2c
+        grey:#91845a
+        silver:#cbc4b1
+        snow:#fcfbf9
+```
 
 --------------------------------------
 
