@@ -1,0 +1,148 @@
+/* ====================
+  Photography.html
+   ==================== */
+   body{
+    background-color:#f9a31c;
+    margin:0 auto;
+    text-align:center;
+    font-size:65.2%;
+   }
+   .shadow{
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+header{
+    height:12rem;
+    width:100%;
+    display:inline-block;
+    border:solid 2px #1e536b;
+    background-image:url();
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+#dropdown_div{
+    height:2rem;
+    width:2rem;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    background-color:grey;
+}
+#title_box{
+    margin:0 auto;
+    height:8rem;
+    width:15rem;
+    position: relative;
+    top: -30px;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   font-family:'Poppins';
+   font-size:12px;
+   color:#fff5e4;
+   text-shadow: 2px 2px 4px #000000;
+}
+footer{
+   margin-top:10px;
+    height:8rem;
+    width:100%;
+    display:inline-block; 
+    background-color:#1e536b;
+    font-family:'Poppins';
+}
+#contact_info{
+    height:100%;
+    width:30%;
+    float:left;
+}
+h1{
+    text-align: center;
+    color: white;
+}  
+p{
+    text-align: center;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    font-size:10px;
+    color:#fff5e4;
+    text-shadow: 2px 2px 4px #000000
+}
+#link_div{
+    height:100%;
+    width:70%;
+    float:right;
+}
+.info_links{
+    margin:20px;
+    height: 3.5rem;
+    width: 3.5rem;
+    display:inline-block;
+    border-radius: 100%;
+    top: 15px;
+    position: relative;
+    border:solid 2px #757c8a; 
+}
+/*web_design*/
+#link_one{
+    background-image:url();
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+/*logo_design*/
+#link_two{
+    background-image:url(http://i.imgur.com/HXrxcGG.jpg?1);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+/*photography*/
+#link_three{
+    background-image:url(http://i.imgur.com/HTmwYPk.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+/*art*/
+#link_four{
+    background-image:url(http://i.imgur.com/SsH86wp.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+/*tattoo*/
+#link_five{
+    background-image:url(http://i.imgur.com/3FnsTJ8.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+/*furniture_and_crafts*/
+#link_six{
+    background-image:url(http://i.imgur.com/H2UYv45.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+#link_seven{
+    background-image:url(http://i.imgur.com/AdPIEuv.jpg?1);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+#link_eight{
+    background-image:url(http://i.imgur.com/9MnI6Hr.jpg?1);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+#link_nine{
+    background-image:url(http://i.imgur.com/SsWpuqT.jpg?1);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}

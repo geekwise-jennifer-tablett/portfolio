@@ -87,10 +87,11 @@ Color Schemes
 ## Photography
 ```
     Vintage 80's Sales
-        maroon:#5c0201
-        darkred:#a81100
-        darkslategrey:#01505d
-        peru:#b5832c
+        midnightblue:#001547
+        darkslategrey:#1e536b
+        chocolate:#dd6f0e
+        orange:#f9a31c
+        yellow:#fdf033
         
 ```
 ## Art
