@@ -129,10 +129,11 @@ header{
 }
 #skills{
     margin:0 auto;
-    margin-top:50px;
-    height:10rem;
+    height:15rem;
     width:98%;
-    border:solid 1px white;
+    font-family:'Teko';
+    position:relative;
+    top:10%;
 }
 .test_scores{
     margin:0 auto;
@@ -143,12 +144,26 @@ header{
     list-style: none;
     
 }
+#test_title{
+    color:#cad2e0;
+    text-shadow: 2px 2px 4px #000000;
+}
+#test_line{
+    height:1px;
+    width:90%;
+    position:relative;
+    left:4%;
+    top:-5%;
+    background-color: #cad2e0;
+    border: #78524b 1px solid;
+}
 li{
     margin:0;
     padding:0;
     display:inline-block;
     height:100%;
-    width:calc(100%/5);
+    width:7rem;
+    font-size:15px;
 }
 /* ====================
        projects
@@ -350,16 +365,3 @@ a{
     color: #011437;
     font-size: 4rem;
 }
-
-/**font styling example*/
-/*.simple_font{
-    height:40px;
-    line-height: 40px;
-    text-align: center;
-    font-size: 40px;
-    position:relative;
-    left:-3rem;
-    top:-2rem;
-    color:#ffffff;
-    font-family:'roboto';
-}*/
