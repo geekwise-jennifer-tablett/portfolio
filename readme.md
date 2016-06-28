@@ -11,7 +11,7 @@ Table of Contents
 3. Design Layout Technical Notes (webdesign/landing page)
 4. Function Technical Notes
 5. Outside Frameworks
-6. General Technical Notes and New Ideas
+6. New Ideas
 7. Logo Design Layout / Technical Notes
 8. Photography Design Layout / Technical Notes
 9. Art Design Layout / Technical Notes
@@ -139,7 +139,6 @@ Color Schemes
 Design Layout Spec
 --------------------------------------
 
-- Color scheme ideas
 - Font ideas
 - Header
     - header will be sticky
@@ -229,11 +228,32 @@ Function Technical Notes
 
 
 
-General Technical Notes and New Ideas
+New Ideas
 -----------------
 
 
 
+Photography Design Layout / Technical Notes
+--------------------------------------
+ #header
+ ```
+ -name in nice phont
+ -followed by photographer
+ ```
+ #personal image
+ ``` 
+ -will display profesional img
+ -on hover will display playful img
+ ```
+    #cover letter
+    ```
+    -img
+    - cover letter will describe why my skills would be best for thier project
+    ```
+ #photo section
+ ```
+ will display a variety of photography and photo effects
+ ```
 
 
 

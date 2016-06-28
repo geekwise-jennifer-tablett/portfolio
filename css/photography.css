@@ -12,37 +12,82 @@
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
+#dropdown_div{
+    height:2rem;
+    width:2rem;
+    position: relative;
+    float:left;
+    background-color:grey;
+}
 header{
-    height:12rem;
+    height:5rem;
     width:100%;
     display:inline-block;
+    background-color:#1e536b;
     border:solid 2px #1e536b;
+}
+
+#title_box{
+    margin:0 auto;
+    height:5rem;
+    width:75%;
+    font-family:'Poppins';
+    color:#fff5e4;
+    text-shadow: 2px 2px 4px #000000;
+}
+#name_div{
+    margin:0;
+    height:50%;
+    width:50%;
+}
+#name{
+    height:25px;
+    width:23%;
+    font-size: 25px;
+    display:inline-block;
+    position: relative;
+    float: left;
+    text-align: center;
+    top:18%;
+}
+#job{
+    height: 100%;
+    width: 25%;
+    font-size: 15px;
+    display:inline-block;
+    position: relative;
+    left: -26%;
+    top: 39%;
+}
+#location_div{
+    height: 15%;
+    position: relative;
+    top: 9%;
+    left: -39%;
+}
+#top_img{
+    height:10rem;
+    width:100%;
     background-image:url();
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
 }
-#dropdown_div{
-    height:2rem;
-    width:2rem;
-    position: relative;
-    top: 1rem;
-    left: 1rem;
-    background-color:grey;
+#personal_info{
+    margin-top:3rem;
+    height:10rem;
+    width:90%;
 }
-#title_box{
-    margin:0 auto;
-    height:8rem;
+#portrait_div{
+    height:5rem;
+    width:5rem;
+    border-radius: 100%;
+    background-color:pink;
+}
+#photo_cover_letter{
+    height:5rem;
     width:15rem;
-    position: relative;
-    top: -30px;
-    -moz-box-shadow:    inset 0 0 10px #000000;
-   -webkit-box-shadow: inset 0 0 10px #000000;
-   box-shadow:         inset 0 0 10px #000000;
-   font-family:'Poppins';
-   font-size:12px;
-   color:#fff5e4;
-   text-shadow: 2px 2px 4px #000000;
+    background-color:yellow;
 }
 footer{
    margin-top:10px;
