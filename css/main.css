@@ -32,14 +32,39 @@ header{
     background-position:center;
     background-size:cover;
 }
-#dropdown_div{
+#neat_img_effect{
     height:2rem;
     width:2rem;
     position: relative;
     top: 1rem;
     left: 1rem;
-    background-color:grey;
+    background-image:url(http://i.imgur.com/f8YNiKa.png?1);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;background-color:grey;
 }
+
+/*display on click*/
+/*#dropdown_ul{
+    margin: 0;
+    height: 12rem;
+    width:60%;
+    display: block;
+    float:left;
+    top: -43%;
+    position: relative;
+    background-color:#cad2e0;
+}
+#dropdown_li{
+    height:1rem;
+    width:1rem;
+    line-height:20px;
+    font-size:20px;
+    text-align:center;
+    position: relative;
+    left: -185%;
+    color:#040f24;
+}*/
 #title_box{
     margin:0 auto;
     height:8rem;

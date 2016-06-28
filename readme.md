@@ -25,23 +25,23 @@ To Do
 ### Last Updated @ 05-06-2016
 
 
-1. [ ] [Design Layout]
+1. [x] [Design Layout]
     #initial design
     ```
     [ ] color scheme
-    [ ] font style
+    [x] font style
     ```
     
     ```
     [ ] header 
         ( ) dropdown menue 
-        ( ) translucent title box
-        ( ) background image
+        (x) translucent title box
+        (x) background image
     ```
     ```
     [ ] Img div
-        ( ) break line
-        ( ) profesional img
+        (x) break line
+        (x) profesional img
     ```
     ```
     [ ] personal section
@@ -50,11 +50,11 @@ To Do
     ```
     ```
     [ ] projects
-        ( ) phone app
-        ( ) calculator
-        ( ) game
-        ( ) html example one
-        ( ) html example two
+        (x) phone app
+        (x) calculator
+        (x) game
+        (x) html example one
+        (x) html example two
     ```
     ```
     [ ] footer
@@ -132,7 +132,7 @@ Color Schemes
  
 ## Non Goals
 ```
-
+-link each project to the io page related to them
 ```
 
 
@@ -141,10 +141,15 @@ Design Layout Spec
 
 - Font ideas
 - Header
-    - header will be sticky
-    - rest of the page will scroll under header
+    
    #dropdown menue
     ```
+    -toggle images
+        - image_one: http://i.imgur.com/qqHPbcp.png?1(happy)
+        - image_two: http://i.imgur.com/qqHPbcp.png?1(big smile)
+        - image_three:http://i.imgur.com/iwDpCvJ.png?1(happy)
+        - image_four:http://i.imgur.com/t43Q0iY.png?1(winking)
+        - image_five:http://i.imgur.com/SQZJqEd.png?1 (blushing)
     - icon becomes dropdown menue on hover
     - links send user to set part of page
     ```
@@ -183,11 +188,11 @@ Design Layout Spec
     ```
     #html example one
     ```
-    - site:
+    - site:Dusty Buns
     ```
     #html example two
     ```
-    -site:
+    -site:Geekwise
     ```
 - Footer
     - links should be round and button like
@@ -201,10 +206,11 @@ Design Layout Spec
     - link: Github (icon: Github) [https://github.com/geekwise-jennifer-tablett]
     - link: Linkedin (icon:Linkedin ) [https://www.linkedin.com/in/j-j-tablett-61a61865]
     - link: Portfolio-logo_design (icon:simple Engine J)[]
-    - link: Portfolio-photography (icon:img)[]
-    - link: Portfolio-art (icon:brushed Engine J)[]
-    - link: Portfolio-furniture_and_crafts (icon:mama wolf)[]
-    - link: Portfolio-tattoo (icon:original Engine J)[]
+    - link: Portfolio-photography (icon:img)[photography.html]
+    - link: Portfolio-art (icon:brushed Engine J)[art.html]
+    - link: Portfolio-furniture_and_crafts (icon:mama wolf)[furniture.html]
+    - link: Portfolio-tattoo (icon:original Engine J)[tattoo.html]
+    - link: Portfolio-webdesign (icon:metalic Engine J)[index.html]
     - link: Facebook (icon:Facebook)[]
     ```
 
@@ -214,7 +220,7 @@ Design Layout Spec
 Non Goal layout specs
 ----------------------------
 
-- 
+-clicking the title of the project will send user to io page 
     
 
 
@@ -231,7 +237,8 @@ Function Technical Notes
 New Ideas
 -----------------
 
-
+- Take original Engine J logo and make it easier to see for icon
+- give icon a color/material change per type of portfolio
 
 Photography Design Layout / Technical Notes
 --------------------------------------
@@ -252,7 +259,8 @@ Photography Design Layout / Technical Notes
     ```
  #photo section
  ```
- will display a variety of photography and photo effects
+ -will display a variety of photography and photo effects
+ -no more than 5 per type
  ```
 
 
