@@ -3,7 +3,7 @@
 
 Table of Contents
 --------------------------------------
-### Last Updated @ 06-27-2016
+### Last Updated @ 07-12-2016
 
 
 1. To Do List
@@ -22,7 +22,7 @@ Table of Contents
 
 To Do
 --------------------------------------
-### Last Updated @ 05-06-2016
+### Last Updated @ 07-12-2016
 
 
 1. [x] [Design Layout]
@@ -34,9 +34,10 @@ To Do
     
     ```
     [ ] header 
-        ( ) dropdown menue 
-        (x) translucent title box
-        (x) background image
+        ( ) slider with links to other pages 
+        ( ) bold title box
+        ( ) background image
+        ( ) icon with cartoon effect
     ```
     ```
     [ ] Img div
@@ -59,7 +60,6 @@ To Do
     ```
     [ ] footer
         ( ) contact information
-        ( ) links
     ```
 2. [ ] [README]
     [ ]- **MAINTAIN TO DO LIST**
@@ -138,7 +138,20 @@ Color Schemes
 
 Design Layout Spec
 --------------------------------------
+- gallery setup/moqup
+```
+<img src="https://cloud.githubusercontent.com/assets/17086882/16786336/ccc5d6fa-4848-11e6-8819-44a5ff95dbfe.png" width="15%"></img> 
 
+
+
+
+
+
+
+
+
+
+```
 - Font ideas
 - Header
     
@@ -270,6 +283,3 @@ Photography Design Layout / Technical Notes
 If you have any questions, please feel free to ask
 
 [J Tablett](https://github.com/geekwise-jennifer-tablett)
-
-
- 
