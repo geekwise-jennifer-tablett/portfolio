@@ -12,7 +12,6 @@
    
    ==================== */
  body{
-    background-color:#5972a3;
     margin:0 auto;
     text-align:center;
     font-size:65.2%;
@@ -23,26 +22,53 @@
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 header{
-    height:12rem;
+    height:25rem;
     width:100%;
-    display:inline-block;
-    border:solid 2px #011437;
+    background-color:black;
+}
+/**slideshow container start*/
+#left_arrow{
+    height:3rem;
+    width:3rem;
+    background-color:purple;
+    float:left;
+}
+#right_arrow{
+    height:3rem;
+    width:3rem;
+    background-color:purple;
+    float:right;
+}
+#slideshow_container{
+    margin:0 auto;
+    position: relative;
+    top:2rem;
+    width: 75%;
+    height: 20rem;
+   background-color:orange;
+}
+#webdesign_box{
+    margin:0 auto;
+    position:relative;
+    top:.5rem;
+    height:18rem;
+    width:60%;
     background-image:url(http://i.imgur.com/nMMFy9K.jpg?1);
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
 }
-#neat_img_effect{
-    height:2rem;
-    width:2rem;
-    position: relative;
-    top: 1rem;
-    left: 1rem;
-    background-image:url(http://i.imgur.com/f8YNiKa.png?1);
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size:cover;background-color:grey;
+#info_box{
+    height:25%;
+    width:100%;
+    position:relative;
+    top:14.7rem;
+    font-family:'Poppins';
+    font-size:14px;
+    background-color:yellow;
 }
+/**slideshow container end*/
+
 
 /*display on click*/
 /*#dropdown_ul{
@@ -144,13 +170,6 @@ header{
     float:left;
     position: relative;
     background-color:#757c8a;
-}
-#cover_letter{
-    margin:0 auto;
-    height:15rem;
-    width:98%;
-    font-family:'Poppins';
-    font-size:14px;
 }
 #skills{
     margin:0 auto;
